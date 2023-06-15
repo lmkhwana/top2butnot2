@@ -1,4 +1,4 @@
 # Tech-Thursday
 
-We did the angular tests
+We did the angular tests :)
  
