@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "types": ["cypress", "node","cypress-xpath"],
-    "target":"es5",
-    "lib":["es5","dom"],
-  },
-  "include": ["**/*.ts","cypress/report.js"]
-}
