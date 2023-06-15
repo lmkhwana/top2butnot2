@@ -23,7 +23,7 @@
             "name": "the user is on the landing page",
             "result": {
               "status": "passed",
-              "duration": 415000000
+              "duration": 878000000
             }
           },
           {
@@ -33,7 +33,37 @@
             "name": "the user shall see the employee dashboard",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-navigate-to-dashboard-in-order-to-see-top-4-heroes-displayed",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "As a TOH user, I want to navigate to dashboard in order to see top 4 Heroes displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The four top heroes are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 526000000
             }
           }
         ]
